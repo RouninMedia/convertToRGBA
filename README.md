@@ -9,6 +9,15 @@
  
  In every conversion, the user may set the alpha-channel transparency to a new value, if they wish to.
 
+______
+
+There are four functions:
+
+ - `confirmInputType(input)`
+ - `hexToRGBA(hexString, alpha)`
+ - `colorKeywordToRGBA(colorKeyword, alpha)`
+ - `convertToRGBA(input, alpha = null)`
+
 _______
 
 ## `confirmInputType()`
