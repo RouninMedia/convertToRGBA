@@ -1,7 +1,7 @@
 # convertToRGBA
 `convertToRGBA()` will convert:
 
- - any CSS ColorName
+ - any CSS `ColorName`
  - any 3 or 6 character HEX
  - any 4 or 8 character HEX
  
