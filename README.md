@@ -13,9 +13,9 @@ ______
 
 There are four functions:
 
- - `confirmInputType(input)`
  - `hexToRGBA(hexString, alpha = null)`
  - `colorKeywordToRGBA(colorKeyword, alpha = null)`
+ - `confirmInputType(input)`
  - `convertToRGBA(input, alpha = null)`
 
 _______
