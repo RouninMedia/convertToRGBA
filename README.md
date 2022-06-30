@@ -14,8 +14,8 @@ ______
 There are four functions:
 
  - `confirmInputType(input)`
- - `hexToRGBA(hexString, alpha)`
- - `colorKeywordToRGBA(colorKeyword, alpha)`
+ - `hexToRGBA(hexString, alpha = null)`
+ - `colorKeywordToRGBA(colorKeyword, alpha = null)`
  - `convertToRGBA(input, alpha = null)`
 
 _______
@@ -57,7 +57,7 @@ const confirmInputType = (input) => {
 
 ```js
 
-const hexToRGBA = (hexString, alpha) => {
+const hexToRGBA = (hexString, alpha = null) => {
 
   hexString = (hexString.startsWith('#')) ? hexString.substr(1) : hexString;
 
@@ -94,7 +94,7 @@ const hexToRGBA = (hexString, alpha) => {
 
 ```js
 
-const colorKeywordToRGBA = (colorKeyword, alpha) => {
+const colorKeywordToRGBA = (colorKeyword, alpha = null) => {
 
   let rgbaValue;
 
