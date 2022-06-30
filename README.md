@@ -7,4 +7,4 @@
  
  to `rgba()` format.
  
- In every conversion, the user may define a new alpha-channel transparency setting.
+ In every conversion, the user may set the alpha-channel transparency to a new value, if they wish to.
